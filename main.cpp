@@ -8,9 +8,12 @@ int main() {
   cout << "Hello World!\n";
 
   float a, b, c;
-  
+
+  cout << "a?";
   cin >> a;
+  cout << "b?";
   cin >> b;
+  cout << "c?";
   cin >> c;
 
   if(b*b >= 4*a*c)
